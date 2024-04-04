@@ -29,7 +29,7 @@ class Profiles extends Base
         return $this->create($this->object);
     }
 
-    public function unregister($user, int $profileId, string $externalTid = null)
+    public function unregister($user, int $profileId, string $externalTid = null, bool $silent = false)
     {
         $this->setResourceEndpoint('profile/unregister');
         $this->setObject(null);
@@ -38,6 +38,7 @@ class Profiles extends Base
             'id' => $profileId,
             'external_id' => (string) $user->id,
             'external_tid' => (string) $externalTid,
+            'silent' => (boolean) $silent,
         ];
 
         return $this->post($body);
