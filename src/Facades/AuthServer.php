@@ -1,6 +1,6 @@
 <?php
 
-namespace BrendanMacKenzie\AuthServerClient\Facades;
+namespace BeCLVR\AuthServerClient\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

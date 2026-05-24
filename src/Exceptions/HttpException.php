@@ -1,6 +1,6 @@
 <?php
 
-namespace BrendanMacKenzie\AuthServerClient\Exceptions;
+namespace BeCLVR\AuthServerClient\Exceptions;
 
 /**
  * Class AuthenticateException.

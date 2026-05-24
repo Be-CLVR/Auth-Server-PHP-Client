@@ -1,10 +1,10 @@
 <?php
 
-namespace BrendanMacKenzie\AuthServerClient;
+namespace BeCLVR\AuthServerClient;
 
-use BrendanMacKenzie\AuthServerClient\Common\HttpClient;
-use BrendanMacKenzie\AuthServerClient\Resources\Profiles;
-use BrendanMacKenzie\AuthServerClient\Resources\Users;
+use BeCLVR\AuthServerClient\Common\HttpClient;
+use BeCLVR\AuthServerClient\Resources\Profiles;
+use BeCLVR\AuthServerClient\Resources\Users;
 
 /**
  * Class Client.

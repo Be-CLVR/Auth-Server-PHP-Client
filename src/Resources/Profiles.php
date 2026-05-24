@@ -1,9 +1,9 @@
 <?php
 
-namespace BrendanMacKenzie\AuthServerClient\Resources;
+namespace BeCLVR\AuthServerClient\Resources;
 
-use BrendanMacKenzie\AuthServerClient\Objects\Profile;
-use BrendanMacKenzie\AuthServerClient\Common\HttpClient;
+use BeCLVR\AuthServerClient\Objects\Profile;
+use BeCLVR\AuthServerClient\Common\HttpClient;
 use Exception;
 
 /**

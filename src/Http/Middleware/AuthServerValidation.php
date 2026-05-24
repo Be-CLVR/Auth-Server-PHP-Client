@@ -1,6 +1,6 @@
 <?php
 
-namespace BrendanMacKenzie\AuthServerClient\Http\Middleware;
+namespace BeCLVR\AuthServerClient\Http\Middleware;
 
 use Closure;
 use Exception;

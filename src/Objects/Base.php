@@ -1,6 +1,6 @@
 <?php
 
-namespace BrendanMacKenzie\AuthServerClient\Objects;
+namespace BeCLVR\AuthServerClient\Objects;
 
 use stdClass;
 

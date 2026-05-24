@@ -1,9 +1,9 @@
 <?php
 
-namespace BrendanMacKenzie\AuthServerClient;
+namespace BeCLVR\AuthServerClient;
 
-use BrendanMacKenzie\AuthServerClient\Facades\AuthServer;
-use BrendanMacKenzie\AuthServerClient\Http\Middleware\AuthServerValidation;
+use BeCLVR\AuthServerClient\Facades\AuthServer;
+use BeCLVR\AuthServerClient\Http\Middleware\AuthServerValidation;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Routing\Router;
 

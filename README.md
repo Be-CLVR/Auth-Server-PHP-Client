@@ -10,10 +10,10 @@ Brendan&MacKenzie's Auth Server PHP Client is a package to connect Laravel API p
 
 
 ## Installation ###
-1. Run `composer require brendan-mackenzie/auth-server-php-client` inside your Laravel project.
+1. Run `composer require be-clvr/auth-server-php-client` inside your Laravel project.
 2. Add your Auth Server Client Token to your environment file, for example: `AUTH_SERVER_TOKEN=[YOUR TOKEN]`.
 3. Optional: if you would like to publish the configuration file for this package you can do so by entering:
-`php artisan vendor:publish --provider="BrendanMacKenzie\AuthServerClient\AuthServerServiceProvider"`
+`php artisan vendor:publish --provider="BeCLVR\AuthServerClient\AuthServerServiceProvider"`
 4. Paste the Auth Server public key in your `storage/app` folder.
 
 And your done! You're now connect to the auth server.
@@ -25,7 +25,7 @@ You can register users on the auth server with your application (client) inside 
 
 ```
 // Import the AuthServer.
-use BrendanMacKenzie\AuthServerClient\AuthServer;
+use BeCLVR\AuthServerClient\AuthServer;
 
 class {
 
@@ -59,7 +59,7 @@ You can enable the middleware by enabling them in your middleware groups:
  protected $middlewareGroups = [
         'web' => [
             ...
-            \BrendanMacKenzie\AuthServerClient\Http\Middleware\AuthServerValidation::class,
+            \BeCLVR\AuthServerClient\Http\Middleware\AuthServerValidation::class,
         ]
  ]
 ```
@@ -92,14 +92,14 @@ Optionally you can publish the Middleware and customize it in your own project:
 If you publish this middleware, make sure you correct the namespace of the AuthServerValidation class.
 
 ## Acknowledgements ##
- - [Brendan&MacKenzie](https://www.brendan-mackenzie.com)
+ - [Brendan&MacKenzie](https://www.be-clvr.com)
 
 
  ## Authors
 
 - [@wouterdeberg](https://github.com/wouterdeberg)
-- [@Brendan-MacKenzie](https://github.com/Brendan-MacKenzie)
+- [@Be-CLVR](https://github.com/Be-CLVR)
 
 ## Issues
-- [Report an issue here](https://github.com/Brendan-MacKenzie/Auth-Server-PHP-Client/issues/new)
-- [List of open issues](https://github.com/Brendan-MacKenzie/Auth-Server-PHP-Client/issues)
+- [Report an issue here](https://github.com/Be-CLVR/Auth-Server-PHP-Client/issues/new)
+- [List of open issues](https://github.com/Be-CLVR/Auth-Server-PHP-Client/issues)

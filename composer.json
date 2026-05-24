@@ -1,6 +1,6 @@
 {
-    "name": "brendan-mackenzie/auth-server-php-client",
-    "description": "Brendan&MacKenzie REST API client for the Auth Server SaaS",
+    "name": "be-clvr/auth-server-php-client",
+    "description": "Be CLVR REST API client for the Auth Server SaaS",
     "type": "library",
     "authors": [
         {
@@ -13,7 +13,7 @@
         }
       ],
     "require": {
-        "php": ">=7.3|~8.0.0|~8.1.0",
+        "php": "^7.3|^8.1|^8.2|^8.3|^8.4",
         "ext-curl": "*",
         "ext-json": "*",
         "firebase/php-jwt": "^6.4",
@@ -26,16 +26,16 @@
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
-          "BrendanMacKenzie\\AuthServerClient\\": "src"
+          "BeCLVR\\AuthServerClient\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "BrendanMacKenzie\\AuthServerClient\\AuthServerServiceProvider"
+                "BeCLVR\\AuthServerClient\\AuthServerServiceProvider"
             ],
             "aliases": {
-                "AuthServer": "BrendanMacKenzie\\AuthServerClient\\Facades\\AuthServer"
+                "AuthServer": "BeCLVR\\AuthServerClient\\Facades\\AuthServer"
             }
         }
     }

@@ -1,6 +1,6 @@
 <?php
 
-namespace BrendanMacKenzie\AuthServerClient\Common;
+namespace BeCLVR\AuthServerClient\Common;
 
 /**
  * Class ResponseError.

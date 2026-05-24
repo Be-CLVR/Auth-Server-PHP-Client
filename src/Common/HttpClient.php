@@ -1,10 +1,10 @@
 <?php
 
-namespace BrendanMacKenzie\AuthServerClient\Common;
+namespace BeCLVR\AuthServerClient\Common;
 
 use InvalidArgumentException;
-use BrendanMacKenzie\AuthServerClient\Exceptions\HttpException;
-use BrendanMacKenzie\AuthServerClient\Exceptions\AuthenticateException;
+use BeCLVR\AuthServerClient\Exceptions\HttpException;
+use BeCLVR\AuthServerClient\Exceptions\AuthenticateException;
 use Exception;
 use GuzzleHttp\Client;
 
@@ -82,8 +82,8 @@ class HttpClient
      *
      * @return string
      *
-     * @throws BrendanMacKenzie\AuthServerClient\Exceptions\AuthenticateException
-     * @throws BrendanMacKenzie\AuthServerClient\Exceptions\HttpException
+     * @throws BeCLVR\AuthServerClient\Exceptions\AuthenticateException
+     * @throws BeCLVR\AuthServerClient\Exceptions\HttpException
      */
     public function performHttpRequest(string $method, ?string $resourceEndpoint, $query = null, ?array $body = null): ?string
     {
